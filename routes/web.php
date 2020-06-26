@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Instagram Auto集客 - 女性求人訴求
+Route::get('jobs', 'AdController@os');
