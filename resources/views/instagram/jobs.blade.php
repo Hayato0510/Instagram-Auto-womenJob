@@ -7,12 +7,12 @@
         <title>公式ページへ移動中</title>
         <link href="{{ secure_asset('css/jobs.css') }}" rel="stylesheet">
         <!--自動遷移設定-->
-        <meta http-equiv="refresh" content=" 5; url=./os">
+        <!--<meta http-equiv="refresh" content=" 5; url=./os">-->
     </head>
     <body>
         <br>
         <br>
-        <p>公式ページへ移動しています。</p>
-        <p>5秒経過しても移動しない場合は、<a href="./os">コチラ</a>をタップして下さい。</p>
+        <p>公式ページへ移動します。</p>
+        <p><a href="./os" class="text">コチラ</a>をタップし、公式ページをご確認下さい。</p>
     </body>
 </html>
