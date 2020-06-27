@@ -12,7 +12,7 @@
 */
 
 // Instagram Auto集客 - 女性求人訴求
-Route::get('time-jobs', function () {
+Route::get('jobs', function () {
     return view('instagram.jobs');
 });
 
