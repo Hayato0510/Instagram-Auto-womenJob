@@ -12,4 +12,9 @@
 */
 
 // Instagram Auto集客 - 女性求人訴求
-Route::get('jobs', 'AdController@os');
+Route::get('time-jobs', function () {
+    return view('instagram.jobs');
+});
+
+// Instagram Auto集客 - 女性求人訴求 - OS識別x遷移
+Route::get('os', 'AdController@os');
