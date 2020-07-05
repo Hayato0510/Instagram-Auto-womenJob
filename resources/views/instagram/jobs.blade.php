@@ -11,9 +11,10 @@
         <!--<meta http-equiv="refresh" content=" 5; url=./os">-->
     </head>
     <body>
-        <img src="{{ asset('image/womenJob_top_small.jpg') }}"></img>
+        <!--<img src="{{ asset('image/womenJob_top_small.jpg') }}"></img>-->
         <br>
-        <a href="./os" class="btn-square-so-pop"><i class="fab fa-apple"></i>/<i class="fab fa-android"></i> 公式ページへ <i class="fas fa-arrow-circle-right"></i></a>
+        <br>
+        <p>詳細は<a href="./os" class="text">コチラ<i class="fas fa-arrow-circle-right"></i></a>から公式ページを確認して下さい。</p>
         <p>※期間限定募集の為、リンク切れの場合は募集停止しています。ご了承下さい。</p>
     </body>
 </html>
